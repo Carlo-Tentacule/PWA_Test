@@ -38,7 +38,7 @@ export default defineConfig({
       },
 
       devOptions: {
-        enabled: true, // ✅ le SW est actif même en dev
+        enabled: true,
         navigateFallback: 'index.html',
         suppressWarnings: true,
         type: 'module'
